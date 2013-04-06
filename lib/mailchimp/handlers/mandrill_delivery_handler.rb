@@ -50,7 +50,7 @@ module Mailchimp
   end
 end
 
-if defined?(ActionMailer)
-  ActionMailer::Base.add_delivery_method(:mailchimp_mandrill, Mailchimp::MandrillDeliveryHandler)
-end
+# if defined?(ActionMailer)
+#   ActionMailer::Base.add_delivery_method(:mailchimp_mandrill, Mailchimp::MandrillDeliveryHandler)
+# end
 
